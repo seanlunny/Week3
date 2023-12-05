@@ -133,3 +133,21 @@ function willBuyDrink(isHotOutside, moneyInPocket) {
   return BuyDrink;
 }
 willBuyDrink(true, 11);
+
+class Student {
+  constructor() {
+    this.firstName = "sam";
+    this.lastName = "smith";
+    this.phoneNumber = "5089541248";
+    this.grade = "a";
+  }
+  introduce() {
+    console.log(
+      `${this.firstName} ${lastNme} can be reached at ${this.phoneNumber}`
+    );
+  }
+}
+let student1 = new Student(`Tom`, `Sawyer`, `5089660296`, `A`);
+let studnet2 = new Student(`Sam`, ` Smith`, `5089541236`, `A`);
+student1.introduce();
+studnet2.introduce();
